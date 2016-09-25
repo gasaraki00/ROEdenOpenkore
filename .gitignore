@@ -1,47 +1,53 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Debug logs
+config.log
+errors.txt
+benchmark-results.txt
+logs
 
-# Folder config file
-Desktop.ini
+# Plugin files
+/profiles
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Backup files
+*~
+.#*
+*.old
+*.bak
+*.BAK
+*.orig
+*.rej
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Auto generated files
+*.pyc
+*.dist
+*.o
+*.os
+.sconf_temp
+.sconsign.dblite
+src/test/consoleui-test
+src/auto/XSTools/PaddedPackets/PaddedPackets.xs.cpp
+src/auto/XSTools/PathFinding/PathFinding.xs.cpp
+src/auto/XSTools/Translation/Translation.xs.cpp
+src/auto/XSTools/XSTools.so
+src/auto/XSTools/libXSTools.so
+src/auto/XSTools/misc/fastutils.cpp
+src/auto/XSTools/misc/misc.c
+src/auto/XSTools/unix/unix.cpp
+src/auto/XSTools/utils/perl/Benchmark.cpp
+src/auto/XSTools/utils/perl/HttpReader.cpp
+src/auto/XSTools/utils/perl/Rijndael.xs.cpp
+src/auto/XSTools/utils/perl/Whirlpool.c
+src/test/http-reader-test
 
-# Windows shortcuts
-*.lnk
+# Local modifications of official files.
+tables/iRO/items-custom.txt
+tables/iRO/itemsdescriptions-custom.txt
+tables/iRO/itemslotcounttable-custom.txt
+tables/iRO/maps-custom.txt
+tables/iRO/quests-custom.txt
+tables/iRO/resnametable-custom.txt
+tables/iRO/skillnametable-custom.txt
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Auto-generated files.
+tables/**/portalsLOS.txt
+tables/**/npcs.txt
+tables/**/monsters.txt
